@@ -1,1 +1,1 @@
-select 'blub' from dual;
+select 'blub2' from dual;
