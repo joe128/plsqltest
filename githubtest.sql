@@ -1,0 +1,1 @@
+select 'blub' from dual;
