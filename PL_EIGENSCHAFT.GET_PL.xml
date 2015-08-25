@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'Cp1252'?>
+<UT>
+   <object class="oracle.dbtools.unit_test.testObjects.UtTest">
+      <test id="264ee69d-8f93-42a7-9e0e-733303beaf45" name="PL_EIGENSCHAFT.GET_PL" obj_name="PL_EIGENSCHAFT" obj_owner="I3V_ADMINISTRATOR" obj_type="FUNCTION" obj_call="GET_PL" src_conn_name="IdeConnections%23Test1" coverage="false">
+         <arg id="f0d2e7f5-1c0b-4e1c-9f7d-3bbcc7569c84" owner="I3V_ADMINISTRATOR" object_name="GET_PL" package_name="PL_EIGENSCHAFT" object_id="100546" position="0" sequence="1" data_level="0" data_type="VARCHAR2" in_out="OUT" character_set_name="CHAR_CS" pls_type="VARCHAR2" char_used="B"/>
+         <arg id="d141913b-7453-4718-8632-656f1e79d219" owner="I3V_ADMINISTRATOR" object_name="GET_PL" package_name="PL_EIGENSCHAFT" object_id="100546" argument_name="ENTITY" position="1" sequence="2" data_level="0" data_type="VARCHAR2" in_out="IN" character_set_name="CHAR_CS" pls_type="VARCHAR2" char_used="B"/>
+         <arg id="480c4277-d79c-4469-8bf9-73ea67ca7655" owner="I3V_ADMINISTRATOR" object_name="GET_PL" package_name="PL_EIGENSCHAFT" object_id="100546" argument_name="TTUPEL" position="2" sequence="3" data_level="0" data_type="NUMBER" in_out="IN" data_length="22" radix="10" pls_type="NUMBER" char_length="0" char_used="0"/>
+         <test_impl id="c14ca106-d792-47f1-a27e-48bc3fcece45" test_id="264ee69d-8f93-42a7-9e0e-733303beaf45" name="Testimplementierung 1" expected_ret="Erfolgreich" expected_err="ANY">
+            <parm argId="480c4277-d79c-4469-8bf9-73ea67ca7655" utiId="c14ca106-d792-47f1-a27e-48bc3fcece45" input_value="&lt;?xml version = '1.0' encoding = 'UTF-8'?>&#xD;&#xA;&lt;DataValue name=&quot;TTUPEL&quot;>1466.9&lt;/DataValue>" test_out_val="true"/>
+            <parm argId="f0d2e7f5-1c0b-4e1c-9f7d-3bbcc7569c84" utiId="c14ca106-d792-47f1-a27e-48bc3fcece45" output_value="&lt;?xml version = '1.0' encoding = 'UTF-8'?>&#xD;&#xA;&lt;DataValue>Einmalige_Eigenschaft&lt;/DataValue>" test_out_val="true"/>
+            <parm argId="d141913b-7453-4718-8632-656f1e79d219" utiId="c14ca106-d792-47f1-a27e-48bc3fcece45" input_value="&lt;?xml version = '1.0' encoding = 'UTF-8'?>&#xD;&#xA;&lt;DataValue name=&quot;ENTITY&quot;>I3V_PL_EIGENSCHAFT&lt;/DataValue>" test_out_val="true"/>
+         </test_impl>
+      </test>
+   </object>
+</UT>
